@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
+
+builds:
+- goos:
+  - linux
+  - darwin
+  - openbsd
+  - freebsd
+  - netbsd
+  goarch:
+  - amd64
+#  - arm
+  - arm64
+#  goarm:
+#  - 6
+#  - 7
+  goamd64:
+  - v1
+  - v2
+  - v3
+  - v4
+#  ignore:
+#  - goos: darwin
+#    goarch: i386
