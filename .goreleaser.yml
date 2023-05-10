@@ -1,5 +1,6 @@
 # yaml-language-server: $schema=https://goreleaser.com/static/schema.json
 
+project_name: sup
 builds:
 - goos:
   - linux
@@ -24,3 +25,13 @@ builds:
 #    goarch: i386
 checksum:
   name_template: "checksums.txt"
+
+nfpms:
+- maintainer: tannevaled
+  description: Simple Deployment Tool
+  homepage: github.com/pressly/sup
+  licence: MIT
+  formats:
+  - deb
+  - rpm
+  - apk
