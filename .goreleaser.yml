@@ -30,8 +30,9 @@ nfpms:
 - maintainer: tannevaled
   description: Simple Deployment Tool
   homepage: github.com/pressly/sup
-  licence: MIT
+  license: MIT
   formats:
   - deb
   - rpm
   - apk
+  - archlinux
