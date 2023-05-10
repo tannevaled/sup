@@ -9,8 +9,8 @@ builds:
   - netbsd
   goarch:
   - amd64
-#  - arm
   - arm64
+#  - arm
 #  goarm:
 #  - 6
 #  - 7
@@ -22,3 +22,5 @@ builds:
 #  ignore:
 #  - goos: darwin
 #    goarch: i386
+checksum:
+  name_template: "checksums.txt"
